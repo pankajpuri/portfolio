@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-function Header() {
+
+const Header = () => {
   return (
     <nav id="navId" className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -78,6 +79,6 @@ function Header() {
       </div>
     </nav>
   );
-}
+};
 
 export default Header;

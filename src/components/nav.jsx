@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 
-function Nav() {
+const Nav = () => {
   return (
     <nav id="navId" className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -82,6 +82,6 @@ function Nav() {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;

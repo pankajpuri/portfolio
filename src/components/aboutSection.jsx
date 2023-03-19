@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Fade from "react-reveal/Fade";
 
-function AboutSection({}) {
+const AboutSection = () => {
   return (
     <section id="about" className="container-fluid py-5">
       <div className="container py-4">
@@ -74,6 +74,6 @@ function AboutSection({}) {
       </div>
     </section>
   );
-}
+};
 
 export default AboutSection;

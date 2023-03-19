@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
-function SkillsSection() {
+const SkillsSection = () => {
   return (
     <section id="skills" className="container-fluid py-5">
       <div className="container py-4">
@@ -108,6 +108,6 @@ function SkillsSection() {
       </div>
     </section>
   );
-}
+};
 
 export default SkillsSection;
