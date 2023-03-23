@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
+
 import Fade from "react-reveal";
 
 function ProfileSection({ name, role }) {
@@ -16,12 +17,11 @@ function ProfileSection({ name, role }) {
               alignItems: "center",
             }}
           >
-            <h1>hello</h1>
             <img
               className="`img-fluid w-100` profileImageBorder"
-              src="../assests/images/pankajpuri.jpg"
+              src=" ./assests/images/pankajpuri.jpg"
               alt="profile"
-            ></img>
+            />
           </div>
           <div className="col-lg-7 ">
             <div className="profileDesc">
