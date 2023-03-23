@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3a248f1.css",
-    "main.js": "/portfolio/static/js/main.4e8abe7b.js",
+    "main.js": "/portfolio/static/js/main.b130c0b1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.acf45957efe7cecda6fc.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/exclusivepaintersreact.jpg": "/portfolio/static/media/exclusivepaintersreact.f3d35bdf8d319e4ef6f1.jpg",
+    "static/media/nepalbazaar.png": "/portfolio/static/media/nepalbazaar.d3465eca0fd307a73058.png",
     "static/media/exclusivepainterswordpress.png": "/portfolio/static/media/exclusivepainterswordpress.c7e7b3e14a9bc923969c.png",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -15,11 +17,11 @@
     "static/media/profile.jpg": "/portfolio/static/media/profile.4da508a68ec59bdd5d83.jpg",
     "index.html": "/portfolio/index.html",
     "main.f3a248f1.css.map": "/portfolio/static/css/main.f3a248f1.css.map",
-    "main.4e8abe7b.js.map": "/portfolio/static/js/main.4e8abe7b.js.map",
+    "main.b130c0b1.js.map": "/portfolio/static/js/main.b130c0b1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a248f1.css",
-    "static/js/main.4e8abe7b.js"
+    "static/js/main.b130c0b1.js"
   ]
 }
