@@ -18,7 +18,7 @@ function ProfileSection({ name, role }) {
           >
             <img
               className="`img-fluid w-100` profileImageBorder"
-              src="../docs/profile.jpg"
+              src="./images/profile.jpg"
               alt="profile"
             ></img>
           </div>
@@ -39,7 +39,7 @@ function ProfileSection({ name, role }) {
             <div className="cvBtnPlaySection">
               <Fade bottom>
                 <a
-                  href="./docs/PankajPuriCV.pdf"
+                  href="./assests/images/Pankaj_Puri_CV.pdf"
                   className=" text-white btn border rounded-pill btnStyle"
                   style={{
                     display: "flex",
@@ -77,7 +77,7 @@ function ProfileSection({ name, role }) {
                           controls="controls"
                         >
                           <source
-                            src="./docs/videos/aboutyourself.mp4"
+                            src="./assests/videos/aboutyourself.mp4"
                             type="video/mp4"
                           ></source>
                         </video>
