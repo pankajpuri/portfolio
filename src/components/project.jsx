@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import getExperinceData from "./services/experienceData";
+import getExperinceData from "./experienceData";
 import Fade from "react-reveal/Fade";
 
 class Project extends Component {
@@ -25,7 +25,7 @@ class Project extends Component {
                     key={data.id}
                   >
                     <img
-                      src={data.landingImage}
+                      src={data.img}
                       className="card-img-top"
                       alt="..."
                       style={{ height: "181px" }}
