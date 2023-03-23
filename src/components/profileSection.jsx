@@ -39,7 +39,7 @@ function ProfileSection({ name, role }) {
             <div className="cvBtnPlaySection">
               <Fade bottom>
                 <a
-                  href="./docs/Pankaj_Puri_CV.pdf"
+                  href="./docs/PankajPuriCV.pdf"
                   className=" text-white btn border rounded-pill btnStyle"
                   style={{
                     display: "flex",
