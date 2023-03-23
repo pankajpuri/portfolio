@@ -16,9 +16,10 @@ function ProfileSection({ name, role }) {
               alignItems: "center",
             }}
           >
+            <h2>khj</h2>
             <img
               className="`img-fluid w-100` profileImageBorder"
-              src="./images/pankajpuri.jpg"
+              src="../assests/images/pankajpuri.jpg"
               alt="profile"
             ></img>
           </div>
