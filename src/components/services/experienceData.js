@@ -1,7 +1,7 @@
-import tesla from "./assests/images/tesla.png";
-import exclusivepainterswordpress from "./assests/images/exclusivepainterswordpress.png";
-import nepalbazaar from "./assests/images/nepalbazaar.png";
-import exclusivepaintersreact from "./assests/images/exclusivepaintersreact.jpg";
+import tesla from "../assests/images/tesla.png";
+import exclusivepainterswordpress from "../assests/images/exclusivepainterswordpress.png";
+import nepalbazaar from "../assests/images/nepalbazaar.png";
+import exclusivepaintersreact from "../assests/images/exclusivepaintersreact.jpg";
 export const experienceData = [
   {
     id: "_1",
