@@ -18,7 +18,7 @@ function ProfileSection({ name, role }) {
           >
             <img
               className="`img-fluid w-100` profileImageBorder"
-              src="./images/profile.jpg"
+              src="./images/pankajpuri.jpg"
               alt="profile"
             ></img>
           </div>
