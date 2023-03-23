@@ -1,0 +1,68 @@
+
+/There are two Git commands a developer must use 
+in order to discard all local changes in Git, 
+remove all uncommited changes and revert their 
+Git working tree back to the state it was in when 
+the last commit took place. The commands to discard 
+all local changes in 
+//Git are: git reset –hard. git clean -fxd/
+//fontawesome
+npm install fontawesome@4.7.0
+
+//Bootstrap
+npm install bootstrap@5.1.3
+
+//React reveal is an animation fo React. 
+npm install react-reveal --save
+
+//remove if somehow you mess it up with their version
+  npm rm react react-dom 
+//install back
+ npm i -s react react-dom
+//install lodash javascript library
+npm i lodash@4.17.10
+import _ from "lodash"
+//it provides pagination method
+
+//install props-type for type checking
+npm i props-type@15.6.2
+import PropTypes from 'prop-types'
+
+
+//Git command
+1. create repository on github
+2. go to command line on react app and type
+    git remote add origin https://github.com/pankajpuri/exclusivepaintersltd.git
+3. Now your poject is hooked to the github.
+then following 
+    i.  git add .
+    ii. git commit -m "first commit"
+/////////////////
+git branch -M main
+git remote add origin https://github.com/pankajpuri/exclusivepaintersltd.git
+git push -u origin main
+
+//Types checking - enables to catch bugs related to typpe checking.
+This will also give documentation to your component, so wheneveer you
+ want to use a reuseable comoponent, you don't have to look at it's render memthod
+ to figure out what props yoou should give to this component
+  need to install the package proptypes as follows
+ npm i prop-types@15.6.2
+ impoorrt PropTypes from 'proop-types'
+
+
+  "axios": "^0.21.1",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "form-data": "^4.0.0",
+    "i": "^0.3.7",
+    "nodemailer": "^6.7.7",
+    "npm": "^9.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
