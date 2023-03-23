@@ -1,8 +1,11 @@
+import tesla from "../assests/images/tesla.png";
+import exclusivepainterswordpress from "../assests/images/exclusivepainterswordpress.png";
 export const experienceData = [
   {
     id: "_1",
     title: "Front End - Tesla Clone",
-    landingImage: "../assests/images/tesla.png",
+    // landingImage: "../assests/images/tesla.png",
+    landingImage: { tesla },
     address: "https://tesla-clone.d2ml6p9nau3pde.amplifyapp.com/",
     description:
       "It is based on React.Js, Javascript, HTML, CSS. Designed to improve my coding skills.",
@@ -10,7 +13,8 @@ export const experienceData = [
   {
     id: "_2",
     title: "August 2021 - Ongoing",
-    landingImage: "../assests/images/exclusivepainterswordpress.png",
+    // landingImage: "../assests/images/exclusivepainterswordpress.png",
+    landingImage: { exclusivepainterswordpress },
     address: "http://www.exclusivepainters.co.nz/",
     description:
       "It is WordPress based website. Hosted on GoDaddy.com. Javascript, HTML, CSS, and Php are used. Also, it is running on a contract based.",

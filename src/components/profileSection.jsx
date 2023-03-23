@@ -1,4 +1,7 @@
 import React from "react";
+import profile from "./assests/images/profile.jpg";
+import PankajpuriCV from "./assests/images/PankajpuriCV.pdf";
+import aboutyourself from "./assests/videos/aboutyourself.mp4";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 
@@ -19,9 +22,9 @@ function ProfileSection({ name, role }) {
           >
             <img
               className="`img-fluid w-100` profileImageBorder"
-              src=" ./assests/images/pankajpuri.jpg"
+              src={profile}
               alt="profile"
-            />
+            ></img>
           </div>
           <div className="col-lg-7 ">
             <div className="profileDesc">
@@ -40,7 +43,7 @@ function ProfileSection({ name, role }) {
             <div className="cvBtnPlaySection">
               <Fade bottom>
                 <a
-                  href="./assests/images/PankajpuriCV.pdf"
+                  href={PankajpuriCV}
                   className=" text-white btn border rounded-pill btnStyle"
                   style={{
                     display: "flex",
@@ -77,10 +80,7 @@ function ProfileSection({ name, role }) {
                           height="400px"
                           controls="controls"
                         >
-                          <source
-                            src="./assests/videos/aboutyourself.mp4"
-                            type="video/mp4"
-                          ></source>
+                          <source src={aboutyourself} type="video/mp4"></source>
                         </video>
                       </div>
                     </div>
