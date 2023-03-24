@@ -11,7 +11,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4">
             <div className="skill">
               <h3 className="text-uppercase">HTML</h3>
-              <h3>95%</h3>
+              {/* <h3>95%</h3> */}
             </div>
             <div className="progress">
               <div
@@ -27,7 +27,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4 py-2">
             <div className="skill">
               <h3 className="text-uppercase">css</h3>
-              <h3>60%</h3>
+              {/* <h3>60%</h3> */}
             </div>
             <div className="progress">
               <div
@@ -43,7 +43,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4 py-2">
             <div className="skill">
               <h3 className="text-uppercase javascript-bar">Javascript</h3>
-              <h3>70%</h3>
+              {/* <h3>70%</h3> */}
             </div>
             <div className="progress">
               <div
@@ -59,7 +59,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4 py-2">
             <div className="skill">
               <h3 className="text-uppercase">Bootstrap</h3>
-              <h3>75%</h3>
+              {/* <h3>75%</h3> */}
             </div>
             <div className="progress">
               <div
@@ -75,7 +75,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4 py-2">
             <div className="skill">
               <h3 className="text-uppercase">React</h3>
-              <h3>75%</h3>
+              {/* <h3>75%</h3> */}
             </div>
             <div className="progress">
               <div
@@ -91,7 +91,7 @@ const SkillsSection = () => {
           <div className="col-md-6 mb-4 py-2">
             <div className="skill">
               <h3 className="text-uppercase">SQL</h3>
-              <h3>80%</h3>
+              {/* <h3>80%</h3> */}
             </div>
             <div className="progress">
               <div
