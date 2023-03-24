@@ -16,7 +16,6 @@ export const experienceData = [
     id: "_2",
     title: "August 2021 - Ongoing",
     img: `${exclusivepainterswordpress}`,
-    // img: "./assests/images/exclusivepainterswordpress.png",
     address: "http://www.exclusivepainters.co.nz/",
     description:
       "It is WordPress based website. Hosted on GoDaddy.com. Javascript, HTML, CSS, and Php are used. Also, it is running on a contract based.",
