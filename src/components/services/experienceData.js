@@ -33,7 +33,7 @@ export const experienceData = [
     id: "_4",
     title: " September 2022 - ongoing",
     img: `${exclusivepaintersreact}`,
-    address: "https://main.d1x7tfsl40h6kh.amplifyapp.com/displayJobs",
+    address: "https://pankajpuri.github.io/homes",
     description:
       "Still working on it:- It is based on React.Js, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
   },
