@@ -6,7 +6,6 @@ export const experienceData = [
   {
     id: "_1",
     title: "Front End - Tesla Clone",
-    // img: "./assests/images/tesla.png",
     img: ` ${tesla}`,
     address: "https://tesla-clone.d2ml6p9nau3pde.amplifyapp.com/",
     description:
