@@ -33,7 +33,7 @@ export const experienceData = [
     id: "_4",
     title: " September 2022 - ongoing",
     img: `${exclusivepaintersreact}`,
-    address: "https://pankajpuri.github.io/homes",
+    address: "https://pankajpuri.github.io/exclusivepaintersltd/",
     description:
       "Still working on it:- It is based on React.Js, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
   },
