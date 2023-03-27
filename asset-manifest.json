@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d46e8be7.css",
-    "main.js": "/portfolio/static/js/main.9bf5ebe4.js",
+    "main.css": "/portfolio/static/css/main.f3a248f1.css",
+    "main.js": "/portfolio/static/js/main.afa6d2eb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.acf45957efe7cecda6fc.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -16,12 +16,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4da508a68ec59bdd5d83.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d46e8be7.css.map": "/portfolio/static/css/main.d46e8be7.css.map",
-    "main.9bf5ebe4.js.map": "/portfolio/static/js/main.9bf5ebe4.js.map",
+    "main.f3a248f1.css.map": "/portfolio/static/css/main.f3a248f1.css.map",
+    "main.afa6d2eb.js.map": "/portfolio/static/js/main.afa6d2eb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d46e8be7.css",
-    "static/js/main.9bf5ebe4.js"
+    "static/css/main.f3a248f1.css",
+    "static/js/main.afa6d2eb.js"
   ]
 }
