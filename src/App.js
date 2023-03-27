@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import SkillsSection from "./components/skillsSection";
 import Contact from "./components/contact";
 import Project from "./components/project";

@@ -72,7 +72,7 @@ const Nav = () => {
               className=" btn nav-link-right fa fa-linkedin-square"
             />
           </li>
-          <li className="nav-item ">
+          <li className="nav-item">
             <a
               href="https://github.com/pankajpuri"
               className="btn nav-link-right fa fa-github"
