@@ -5,8 +5,12 @@ import Fade from "react-reveal/Fade";
 
 class Project extends Component {
   state = {
-    experienceData: getExperinceData(),
+    experienceData: [],
   };
+  componentDidMount() {
+    const experienceData = getExperinceData();
+    this.setState({ experienceData });
+  }
   render() {
     return (
       <section id="experience" className="container-fluid py-5">

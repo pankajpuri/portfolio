@@ -38,6 +38,5 @@ export const experienceData = [
 ];
 
 export default function getExperinceData() {
-  console.log("result: ", experienceData);
   return experienceData;
 }
