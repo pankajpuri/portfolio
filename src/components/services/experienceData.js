@@ -13,7 +13,7 @@ export const experienceData = [
   },
   {
     id: "_2",
-    title: "August 2021 - Ongoing",
+    title: "November 2021 - Ongoing",
     img: `${exclusivepainterswordpress}`,
     address: "http://www.exclusivepainters.co.nz/",
     description:
@@ -21,7 +21,7 @@ export const experienceData = [
   },
   {
     id: "_3",
-    title: "July 2020 - Ongoing",
+    title: "December 2022 - Ongoing",
     img: `${nepalbazaar}`,
     address: "http://www.nepalbazaar.co.nz/",
     description:
@@ -29,7 +29,7 @@ export const experienceData = [
   },
   {
     id: "_4",
-    title: " September 2022 - ongoing",
+    title: "Ongoing",
     img: `${exclusivepaintersreact}`,
     address: "https://pankajpuri.github.io/exclusivepaintersltd/",
     description:
