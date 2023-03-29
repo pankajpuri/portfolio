@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3a248f1.css",
-    "main.js": "/portfolio/static/js/main.b05b962b.js",
+    "main.js": "/portfolio/static/js/main.fcb31d3d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.acf45957efe7cecda6fc.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -12,16 +12,16 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/tesla.png": "/portfolio/static/media/tesla.8c317e8d9d875fbe7292.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/PankajpuriCV.pdf": "/portfolio/static/media/PankajpuriCV.339242c9677700ddb273.pdf",
+    "static/media/PankajpuriCV.pdf": "/portfolio/static/media/PankajpuriCV.d4606db33431a072a903.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4da508a68ec59bdd5d83.jpg",
     "index.html": "/portfolio/index.html",
     "main.f3a248f1.css.map": "/portfolio/static/css/main.f3a248f1.css.map",
-    "main.b05b962b.js.map": "/portfolio/static/js/main.b05b962b.js.map",
+    "main.fcb31d3d.js.map": "/portfolio/static/js/main.fcb31d3d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a248f1.css",
-    "static/js/main.b05b962b.js"
+    "static/js/main.fcb31d3d.js"
   ]
 }
