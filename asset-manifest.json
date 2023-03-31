@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f3a248f1.css",
+    "main.css": "/portfolio/static/css/main.ac1bd695.css",
     "main.js": "/portfolio/static/js/main.dff6d02d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.acf45957efe7cecda6fc.mp4",
@@ -16,12 +16,12 @@
     "static/media/PankajpuriCV.pdf": "/portfolio/static/media/PankajpuriCV.fa24c5e73ea65d1c9bde.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/portfolio/index.html",
-    "main.f3a248f1.css.map": "/portfolio/static/css/main.f3a248f1.css.map",
+    "main.ac1bd695.css.map": "/portfolio/static/css/main.ac1bd695.css.map",
     "main.dff6d02d.js.map": "/portfolio/static/js/main.dff6d02d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a248f1.css",
+    "static/css/main.ac1bd695.css",
     "static/js/main.dff6d02d.js"
   ]
 }
