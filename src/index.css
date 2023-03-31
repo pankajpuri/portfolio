@@ -172,6 +172,7 @@ code {
   .cvBtnPlaySection a {
     width: 125px;
   }
+
   .playVideoSection {
     display: flex;
     flex-direction: row;
@@ -248,7 +249,7 @@ code {
 a:hover {
   background-color: #ffffff;
   opacity: 1;
-  color: #0bceaf !important;
+  color: #132c27 !important;
   font-weight: 400;
 }
 
