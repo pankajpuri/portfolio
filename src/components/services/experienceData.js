@@ -4,6 +4,14 @@ import nepalbazaar from "../assests/images/nepalbazaar.png";
 import exclusivepaintersreact from "../assests/images/exclusivepaintersreact.jpg";
 export const experienceData = [
   {
+    id: "_4",
+    title: "Ongoing",
+    img: `${exclusivepaintersreact}`,
+    address: "https://pankajpuri.github.io/exclusivepaintersltd/",
+    description:
+      "Still working on it:- It is based on React.Js, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
+  },
+  {
     id: "_1",
     title: "Front End - Tesla Clone",
     img: ` ${tesla}`,
@@ -26,14 +34,6 @@ export const experienceData = [
     address: "http://www.nepalbazaar.co.nz/",
     description:
       "It is WordPress based Ecommerce website. Based on Javascript, HTML, CSS, and PHP. It is running on contract",
-  },
-  {
-    id: "_4",
-    title: "Ongoing",
-    img: `${exclusivepaintersreact}`,
-    address: "https://pankajpuri.github.io/exclusivepaintersltd/",
-    description:
-      "Still working on it:- It is based on React.Js, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
   },
 ];
 
