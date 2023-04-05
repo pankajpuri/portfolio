@@ -73,7 +73,15 @@ function ProfileSection({ name, role }) {
                 >
                   <div className="modal-dialog">
                     <div className="modal-content">
-                      <div className="modal-body">
+                      <div className="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div className="modal-body d-flex">
                         <video
                           id="video"
                           width="500px"

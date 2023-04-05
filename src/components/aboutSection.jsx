@@ -17,7 +17,7 @@ class AbouSection extends Component {
           <div className="row pt-4 mt-2">
             <Fade bottom>
               <div className="col-lg">
-                <h1>UI Designer and Front-end Developer</h1>
+                <h1>Software Developer</h1>
 
                 <p
                   style={{
