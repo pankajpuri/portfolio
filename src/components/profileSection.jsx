@@ -8,6 +8,13 @@ import "font-awesome/css/font-awesome.css";
 import Fade from "react-reveal";
 
 function ProfileSection({ name, role }) {
+  const handleCloseVideo = () => {
+    const video = document.getElementById("video");
+    video.pause();
+    video.currentTime = 0;
+
+    console.log("closing video..");
+  };
   return (
     <section id="home" className="container-fluid bg-color">
       <div className="container">
@@ -75,8 +82,9 @@ function ProfileSection({ name, role }) {
                     <div className="modal-content">
                       <div className="modal-header">
                         <button
+                          onClick={handleCloseVideo}
                           type="button"
-                          class="btn-close"
+                          className="btn-close"
                           data-bs-dismiss="modal"
                           aria-label="Close"
                         ></button>
