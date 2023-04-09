@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import SkillsSection from "./components/skillsSection";
-import Contact from "./components/contact";
+import ContactFrom from "./components/contactform";
 import Project from "./components/project";
 import ProfileSection from "./components/profileSection";
 import Nav from "./components/nav";
@@ -24,7 +24,7 @@ function App() {
         <AboutSection />
         <Project />
         <SkillsSection />
-        <Contact />
+        <ContactFrom />
       </div>
     </React.Fragment>
   );
