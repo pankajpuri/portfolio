@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import getSkillSets from "./services/skillsets";
+import getSkillSets from "./data/skillsets";
 class SkillsSection extends Component {
   state = {
     skillSets: [],

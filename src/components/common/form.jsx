@@ -21,7 +21,6 @@ class Form extends Component {
     const datas = { ...this.state.datas };
     datas[input.name] = input.value;
     this.setState({ datas, errors });
-    console.log("input:", datas.email);
   };
 
   validate = () => {
@@ -65,6 +64,7 @@ class Form extends Component {
         id={id}
         type={type}
         className="btn btn-success contactform-input submit-btn"
+        disabled={this.validate()}
       >
         {label}
       </button>

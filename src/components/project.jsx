@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import getExperinceData from "./services/experienceData";
+import getExperinceData from "./data/experienceData";
 import Fade from "react-reveal/Fade";
 
 class Project extends Component {

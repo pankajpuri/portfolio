@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import getEducations from "./services/education";
+import getEducations from "./data/education";
 class AbouSection extends Component {
   state = { educations: [] };
   componentDidMount() {

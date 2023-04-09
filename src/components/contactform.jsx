@@ -1,10 +1,11 @@
 import React from "react";
 import Fade from "react-reveal";
 import Joi from "joi-browser";
-import axios from "axios";
+import { toast } from "react-toastify";
+import config from "../config/default.json";
 import Form from "./common/form";
+import http from "./services/httpService";
 
-const apiUrl = "https://whispering-everglades-32956.herokuapp.com/send-email";
 class ContactFrom extends Form {
   state = {
     datas: { name: "", email: "", subject: "", message: "" },
@@ -19,8 +20,16 @@ class ContactFrom extends Form {
   };
   async doSubmit() {
     //call the server;
-    await axios.post(apiUrl, this.state.datas);
-    console.log("submitted..");
+    const datas = { ...this.state.datas };
+    try {
+      await http.post(config.apiUrl, datas);
+      toast("Message sent. Thank you!");
+      this.setState({
+        datas: { name: "", email: "", subject: "", message: "" },
+      });
+    } catch (ex) {
+      console.log("specific excpected error:", ex);
+    }
   }
   render() {
     return (
