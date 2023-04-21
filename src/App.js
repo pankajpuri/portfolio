@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import SkillsSection from "./components/skillsSection";
-import ContactFrom from "./components/contactForm";
+import ContactFrom from "./components/contactform";
 import Project from "./components/project";
 import ProfileSection from "./components/profileSection";
 import Nav from "./components/nav";
