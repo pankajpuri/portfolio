@@ -488,3 +488,9 @@ a:hover {
   border: none;
 }
 /* End of styles for contact section */
+.btn-close {
+  transition: 1s;
+}
+.btn-close:hover {
+  transform: rotate(90deg);
+}
