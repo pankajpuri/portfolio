@@ -2,8 +2,6 @@ import React from "react";
 import profile from "./assests/images/profile.jpg";
 import PankajpuriCV from "./assests/images/PankajpuriCV.pdf";
 import aboutyourself from "./assests/videos/aboutyourself.mp4";
-import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
 
 import Fade from "react-reveal";
 
@@ -89,10 +87,10 @@ function ProfileSection({ name, role }) {
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div className="modal-body d-flex">
+                      <div className="modal-body">
                         <video
                           id="video"
-                          width="500px"
+                          width="500rem"
                           height="400px"
                           controls="controls"
                         >

@@ -42,7 +42,6 @@ code {
 @media (max-width: 992px) {
   .navbar-collapse {
     background-color: #fff;
-    padding-left: 10px;
     opacity: 0.9;
     border: 3px solid rgba(241, 196, 196, 0.05);
   }
@@ -134,6 +133,12 @@ code {
 
 .profileImageBorder {
   border-radius: 50%;
+}
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 992px) {
   .col-lg-5 {

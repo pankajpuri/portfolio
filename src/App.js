@@ -1,10 +1,10 @@
 import React from "react";
+import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { ToastContainer } from "react-toastify";
+import "font-awesome/css/font-awesome.css";
 import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 import SkillsSection from "./components/skillsSection";
 import ContactFrom from "./components/contactform";
 import Project from "./components/project";

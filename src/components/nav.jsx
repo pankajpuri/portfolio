@@ -1,47 +1,79 @@
-import React from "react";
-import "../index.css";
-import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
+import React, { useState, useEffect } from "react";
 
 const Nav = () => {
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+  const toggleNavbar = (event) => {
+    event.preventDefault();
+    setIsNavbarOpen(!isNavbarOpen);
+  };
+
+  useEffect(() => {
+    const navId = document.getElementById("navbarNav");
+    if (isNavbarOpen) {
+      navId.classList.add("show");
+    } else {
+      navId.classList.remove("show");
+    }
+  }, [isNavbarOpen]);
   return (
     <nav id="navId" className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <button
-          className="navbar-toggler"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
           aria-controls="navbarNav"
-          aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={toggleNavbar}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav-pills nav-justified">
             <li className="nav-item">
-              <a className="nav-link" href="#home">
+              <a
+                className="nav-link"
+                onClick={() => setIsNavbarOpen(false)}
+                href="#home"
+              >
                 Home
               </a>
             </li>
             <li className=" nav-item">
-              <a className=" nav-link" href="#about">
+              <a
+                className=" nav-link"
+                onClick={() => setIsNavbarOpen(false)}
+                href="#about"
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className=" nav-link" href="#experience">
+              <a
+                className=" nav-link"
+                onClick={() => setIsNavbarOpen(false)}
+                href="#experience"
+              >
                 Experience
               </a>
             </li>
             <li className=" nav-item">
-              <a className=" nav-link" href="#skills">
+              <a
+                className=" nav-link"
+                onClick={() => setIsNavbarOpen(false)}
+                href="#skills"
+              >
                 Skill
               </a>
             </li>
             <li className=" nav-item">
-              <a className=" nav-link" href="#contact">
+              <a
+                className=" nav-link"
+                onClick={() => setIsNavbarOpen(false)}
+                href="#contact"
+              >
                 Contact
               </a>
             </li>
