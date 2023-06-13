@@ -20,7 +20,7 @@ const Nav = () => {
     <nav id="navId" className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           aria-controls="navbarNav"
