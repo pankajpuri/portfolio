@@ -1,21 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
-import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+import Nav from "./components/nav";
 import SkillsSection from "./components/skillsSection";
 import ContactFrom from "./components/contactform";
 import Project from "./components/project";
 import ProfileSection from "./components/profileSection";
-import Nav from "./components/nav";
 import AboutSection from "./components/aboutSection";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
+  useEffect(() => {
+    const trackVisitor = async () => {
+      try {
+        const response = await fetch(
+          "https://whispering-everglades-32956.herokuapp.com/visitors",
+          {
+            method: "POST",
+          }
+        );
+        const data = await response.json();
+        toast.success(
+          `You are the ${data.visitorCount}th person to visit my portfolio!`,
+          {
+            position: "top-center",
+            autoClose: 5000, // Close the toast after 5 seconds
+            bodyClassName: "custom-toast-body",
+          }
+        );
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    trackVisitor();
+  }, []);
   return (
     <React.Fragment>
       <Nav />
-      <ToastContainer />
+      <ToastContainer style={{ width: "auto" }} />
       <div
         data-bs-spy="scroll"
         data-bs-target="#navId"
