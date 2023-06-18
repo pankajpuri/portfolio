@@ -1,1 +1,1 @@
-{ "apiUrl": "https://whispering-everglades-32956.herokuapp.com/send-email" }
+{ "apiUrl": "https://whispering-everglades-32956.herokuapp.com/api/send-email" }

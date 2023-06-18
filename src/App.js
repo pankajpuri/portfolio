@@ -16,7 +16,7 @@ function App() {
     const trackVisitor = async () => {
       try {
         const response = await fetch(
-          "https://whispering-everglades-32956.herokuapp.com/visitors",
+          "https://whispering-everglades-32956.herokuapp.com/api/visitors",
           {
             method: "POST",
           }
