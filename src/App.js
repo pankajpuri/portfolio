@@ -17,8 +17,7 @@ function App() {
   useEffect(() => {
     const trackVisitor = async () => {
       try {
-        const response = await http.post(config.apiUrlVisitors);
-        const data = await response.json();
+        const { data } = await http.post(config.apiUrlVisitors);
         toast.success(
           `You are the ${data.visitorCount}th person to visit my portfolio!`,
           {

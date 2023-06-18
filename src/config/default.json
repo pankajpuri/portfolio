@@ -1,4 +1,4 @@
 {
   "apiUrlSendEmail": "https://whispering-everglades-32956.herokuapp.com/api/send-email",
-  "apiUrlVisitors": "https://whispering-everglades-32956.herokuapp.com/api/visitors"
+  "apiUrlVisitors": "http://localhost:8000/api/visitors"
 }
