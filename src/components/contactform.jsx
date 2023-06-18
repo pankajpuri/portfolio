@@ -2,8 +2,8 @@ import React from "react";
 import Fade from "react-reveal";
 import Joi from "joi-browser";
 import { toast } from "react-toastify";
-import config from "../config/default.json";
 import Form from "./common/form";
+import config from "../config/default.json";
 import http from "./services/httpService";
 
 class ContactFrom extends Form {
@@ -22,7 +22,7 @@ class ContactFrom extends Form {
     //call the server;
     const datas = { ...this.state.datas };
     try {
-      await http.post(config.apiUrl, datas);
+      await http.post(config.apiUrlSendEmail, datas);
       toast("Message sent. Thank you!");
       this.setState({
         datas: { name: "", email: "", subject: "", message: "" },

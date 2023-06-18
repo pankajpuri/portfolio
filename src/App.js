@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { ToastContainer, toast } from "react-toastify";
 import Nav from "./components/nav";
+import config from "./config/default.json";
+import http from "./components/services/httpService";
 import SkillsSection from "./components/skillsSection";
 import ContactFrom from "./components/contactform";
 import Project from "./components/project";
@@ -15,12 +17,7 @@ function App() {
   useEffect(() => {
     const trackVisitor = async () => {
       try {
-        const response = await fetch(
-          "https://whispering-everglades-32956.herokuapp.com/api/visitors",
-          {
-            method: "POST",
-          }
-        );
+        const response = await http.post(config.apiUrlVisitors);
         const data = await response.json();
         toast.success(
           `You are the ${data.visitorCount}th person to visit my portfolio!`,
