@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ee4d5519.css",
-    "main.js": "/portfolio/static/js/main.e954c5ce.js",
+    "main.css": "/portfolio/static/css/main.d2a90c9e.css",
+    "main.js": "/portfolio/static/js/main.c3d35f92.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.acf45957efe7cecda6fc.mp4",
+    "static/media/aboutyourself.mp4": "/portfolio/static/media/aboutyourself.45182a98acd54b29e9be.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/exclusivepaintersreact.jpg": "/portfolio/static/media/exclusivepaintersreact.f3d35bdf8d319e4ef6f1.jpg",
     "static/media/nepalbazaar.png": "/portfolio/static/media/nepalbazaar.d3465eca0fd307a73058.png",
@@ -12,16 +12,16 @@
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/tesla.png": "/portfolio/static/media/tesla.8c317e8d9d875fbe7292.png",
+    "static/media/PankajpuriCV.pdf": "/portfolio/static/media/PankajpuriCV.5dc57983d3459f5e709a.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/PankajpuriCV.pdf": "/portfolio/static/media/PankajpuriCV.fa24c5e73ea65d1c9bde.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/portfolio/index.html",
-    "main.ee4d5519.css.map": "/portfolio/static/css/main.ee4d5519.css.map",
-    "main.e954c5ce.js.map": "/portfolio/static/js/main.e954c5ce.js.map",
+    "main.d2a90c9e.css.map": "/portfolio/static/css/main.d2a90c9e.css.map",
+    "main.c3d35f92.js.map": "/portfolio/static/js/main.c3d35f92.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee4d5519.css",
-    "static/js/main.e954c5ce.js"
+    "static/css/main.d2a90c9e.css",
+    "static/js/main.c3d35f92.js"
   ]
 }
