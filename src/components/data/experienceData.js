@@ -9,7 +9,7 @@ export const experienceData = [
         img: `${exclusivepaintersreact}`,
         address: "https://pankajpuri.github.io/exclusivepaintersltd/",
         description:
-            "Still working on it:- It is based on React.Js, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
+            "Still working on it:- It is based on React.Js, Node.js, MongoDb, Javascript, HTML, CSS, bootstrap, lodash. Designed to improve WordPress based site and to provide more features to controls different job's activities.",
     },
     {
         id: "_1",
@@ -21,19 +21,19 @@ export const experienceData = [
     },
     {
         id: "_2",
-        title: "November 2021 - Ongoing",
-        img: `${exclusivepainterswordpress}`,
-        address: "http://www.exclusivepainters.co.nz/",
-        description:
-            "It is WordPress based website. Hosted on GoDaddy.com. Javascript, HTML, CSS, and Php are used. Also, it is running on a contract based.",
-    },
-    {
-        id: "_3",
         title: "December 2022 - Ongoing",
         img: `${nepalbazaar}`,
         address: "http://www.nepalbazaar.co.nz/",
         description:
             "It is WordPress based Ecommerce website. Based on Javascript, HTML, CSS, and PHP. It is running on contract",
+    },
+    {
+        id: "_3",
+        title: "November 2021 - Ongoing",
+        img: `${exclusivepainterswordpress}`,
+        address: "http://www.exclusivepainters.co.nz/",
+        description:
+            "It is WordPress based website. Hosted on GoDaddy.com. Javascript, HTML, CSS, and Php are used. Also, it is running on a contract based.",
     },
 ];
 
